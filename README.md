@@ -6,7 +6,7 @@ Our work proposes **DDC (Directional Decomposition and Correction)**, a novel fi
 
 ## Framework Overview
 
-![Framework](assets/framework.pdf)
+![Framework](assets/framework.png)
 
 ## Repository Structure
 
