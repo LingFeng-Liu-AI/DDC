@@ -1,0 +1,497 @@
+Trainable parameters: 271736
+Mon 21 Jul 2025 16:43:32 INFO  Number of trainable parameters: 271736 (Expected: 271736)
+Mon 21 Jul 2025 16:43:32 INFO  Starting the finetuning process...
+Mon 21 Jul 2025 16:44:45 INFO  epoch 0 training [time: 73.11s, train loss: 10.7983]
+Mon 21 Jul 2025 16:45:42 INFO  epoch 1 training [time: 56.19s, train loss: 8.6703]
+Mon 21 Jul 2025 16:46:16 INFO  epoch 2 training [time: 34.83s, train loss: 7.1929]
+Mon 21 Jul 2025 16:46:49 INFO  epoch 3 training [time: 32.62s, train loss: 6.0624]
+Mon 21 Jul 2025 16:47:32 INFO  epoch 4 training [time: 42.73s, train loss: 5.1999]
+Mon 21 Jul 2025 16:51:00 INFO  epoch 4 evaluating [time: 207.87s, valid_score: 0.052600]
+Mon 21 Jul 2025 16:51:00 INFO  valid result: 
+recall@10 : 0.0478    mrr@10 : 0.0526    ndcg@10 : 0.0354    hit@10 : 0.1274    precision@10 : 0.0148    map@10 : 0.0206    averagepopularity@10 : 383.5446
+Mon 21 Jul 2025 16:51:00 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 16:51:41 INFO  epoch 5 training [time: 40.90s, train loss: 4.4538]
+Mon 21 Jul 2025 16:52:22 INFO  epoch 6 training [time: 41.26s, train loss: 3.9922]
+Mon 21 Jul 2025 16:53:06 INFO  epoch 7 training [time: 44.24s, train loss: 3.5139]
+Mon 21 Jul 2025 16:53:54 INFO  epoch 8 training [time: 47.70s, train loss: 3.2338]
+Mon 21 Jul 2025 16:54:36 INFO  epoch 9 training [time: 42.22s, train loss: 2.8735]
+Mon 21 Jul 2025 16:57:24 INFO  epoch 9 evaluating [time: 167.78s, valid_score: 0.055300]
+Mon 21 Jul 2025 16:57:24 INFO  valid result: 
+recall@10 : 0.0501    mrr@10 : 0.0553    ndcg@10 : 0.0371    hit@10 : 0.1336    precision@10 : 0.0156    map@10 : 0.0216    averagepopularity@10 : 377.7594
+Mon 21 Jul 2025 16:57:24 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 16:58:16 INFO  epoch 10 training [time: 51.83s, train loss: 2.6094]
+Mon 21 Jul 2025 16:59:34 INFO  epoch 11 training [time: 78.10s, train loss: 2.3636]
+Mon 21 Jul 2025 17:01:03 INFO  epoch 12 training [time: 88.93s, train loss: 2.2026]
+Mon 21 Jul 2025 17:02:31 INFO  epoch 13 training [time: 88.37s, train loss: 2.0120]
+Mon 21 Jul 2025 17:04:02 INFO  epoch 14 training [time: 91.20s, train loss: 1.8835]
+Mon 21 Jul 2025 17:08:43 INFO  epoch 14 evaluating [time: 280.33s, valid_score: 0.057400]
+Mon 21 Jul 2025 17:08:43 INFO  valid result: 
+recall@10 : 0.052    mrr@10 : 0.0574    ndcg@10 : 0.0385    hit@10 : 0.138    precision@10 : 0.0161    map@10 : 0.0225    averagepopularity@10 : 372.8643
+Mon 21 Jul 2025 17:08:43 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:09:56 INFO  epoch 15 training [time: 73.65s, train loss: 1.7259]
+Mon 21 Jul 2025 17:11:06 INFO  epoch 16 training [time: 69.18s, train loss: 1.5911]
+Mon 21 Jul 2025 17:12:02 INFO  epoch 17 training [time: 56.98s, train loss: 1.4929]
+Mon 21 Jul 2025 17:12:48 INFO  epoch 18 training [time: 45.15s, train loss: 1.3704]
+Mon 21 Jul 2025 17:13:33 INFO  epoch 19 training [time: 45.25s, train loss: 1.2965]
+Mon 21 Jul 2025 17:17:13 INFO  epoch 19 evaluating [time: 219.71s, valid_score: 0.059200]
+Mon 21 Jul 2025 17:17:13 INFO  valid result: 
+recall@10 : 0.0531    mrr@10 : 0.0592    ndcg@10 : 0.0396    hit@10 : 0.1414    precision@10 : 0.0166    map@10 : 0.0232    averagepopularity@10 : 368.5676
+Mon 21 Jul 2025 17:17:13 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:17:44 INFO  epoch 20 training [time: 30.81s, train loss: 1.2262]
+Mon 21 Jul 2025 17:18:17 INFO  epoch 21 training [time: 33.52s, train loss: 1.1472]
+Mon 21 Jul 2025 17:18:58 INFO  epoch 22 training [time: 41.25s, train loss: 1.0629]
+Mon 21 Jul 2025 17:19:47 INFO  epoch 23 training [time: 48.50s, train loss: 1.0139]
+Mon 21 Jul 2025 17:20:38 INFO  epoch 24 training [time: 51.29s, train loss: 0.9630]
+Mon 21 Jul 2025 17:25:24 INFO  epoch 24 evaluating [time: 285.74s, valid_score: 0.060700]
+Mon 21 Jul 2025 17:25:24 INFO  valid result: 
+recall@10 : 0.0544    mrr@10 : 0.0607    ndcg@10 : 0.0406    hit@10 : 0.1446    precision@10 : 0.017    map@10 : 0.0238    averagepopularity@10 : 365.2843
+Mon 21 Jul 2025 17:25:24 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:26:18 INFO  epoch 25 training [time: 53.90s, train loss: 0.8911]
+Mon 21 Jul 2025 17:27:04 INFO  epoch 26 training [time: 46.41s, train loss: 0.8467]
+Mon 21 Jul 2025 17:28:03 INFO  epoch 27 training [time: 58.87s, train loss: 0.7944]
+Mon 21 Jul 2025 17:29:02 INFO  epoch 28 training [time: 59.31s, train loss: 0.7570]
+Mon 21 Jul 2025 17:30:00 INFO  epoch 29 training [time: 57.48s, train loss: 0.7098]
+Mon 21 Jul 2025 17:34:12 INFO  epoch 29 evaluating [time: 251.72s, valid_score: 0.062100]
+Mon 21 Jul 2025 17:34:12 INFO  valid result: 
+recall@10 : 0.0555    mrr@10 : 0.0621    ndcg@10 : 0.0415    hit@10 : 0.1472    precision@10 : 0.0173    map@10 : 0.0244    averagepopularity@10 : 362.4149
+Mon 21 Jul 2025 17:34:12 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:34:56 INFO  epoch 30 training [time: 44.43s, train loss: 0.6799]
+Mon 21 Jul 2025 17:35:29 INFO  epoch 31 training [time: 33.04s, train loss: 0.6366]
+Mon 21 Jul 2025 17:36:21 INFO  epoch 32 training [time: 51.84s, train loss: 0.6110]
+Mon 21 Jul 2025 17:37:21 INFO  epoch 33 training [time: 60.35s, train loss: 0.5843]
+Mon 21 Jul 2025 17:38:24 INFO  epoch 34 training [time: 62.77s, train loss: 0.5692]
+Mon 21 Jul 2025 17:43:02 INFO  epoch 34 evaluating [time: 277.90s, valid_score: 0.063400]
+Mon 21 Jul 2025 17:43:02 INFO  valid result: 
+recall@10 : 0.0564    mrr@10 : 0.0634    ndcg@10 : 0.0424    hit@10 : 0.1498    precision@10 : 0.0176    map@10 : 0.025    averagepopularity@10 : 360.093
+Mon 21 Jul 2025 17:43:02 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:43:41 INFO  epoch 35 training [time: 38.96s, train loss: 0.5188]
+Mon 21 Jul 2025 17:44:09 INFO  epoch 36 training [time: 28.47s, train loss: 0.4981]
+Mon 21 Jul 2025 17:44:35 INFO  epoch 37 training [time: 25.68s, train loss: 0.4837]
+Mon 21 Jul 2025 17:45:01 INFO  epoch 38 training [time: 25.33s, train loss: 0.4533]
+Mon 21 Jul 2025 17:45:42 INFO  epoch 39 training [time: 41.24s, train loss: 0.4386]
+Mon 21 Jul 2025 17:49:35 INFO  epoch 39 evaluating [time: 233.73s, valid_score: 0.064500]
+Mon 21 Jul 2025 17:49:35 INFO  valid result: 
+recall@10 : 0.0573    mrr@10 : 0.0645    ndcg@10 : 0.0431    hit@10 : 0.1519    precision@10 : 0.0179    map@10 : 0.0254    averagepopularity@10 : 358.1113
+Mon 21 Jul 2025 17:49:36 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:50:48 INFO  epoch 40 training [time: 72.33s, train loss: 0.4108]
+Mon 21 Jul 2025 17:52:00 INFO  epoch 41 training [time: 72.24s, train loss: 0.3963]
+Mon 21 Jul 2025 17:53:09 INFO  epoch 42 training [time: 69.16s, train loss: 0.3817]
+Mon 21 Jul 2025 17:54:00 INFO  epoch 43 training [time: 51.16s, train loss: 0.3699]
+Mon 21 Jul 2025 17:54:41 INFO  epoch 44 training [time: 40.89s, train loss: 0.3589]
+Mon 21 Jul 2025 17:59:30 INFO  epoch 44 evaluating [time: 288.95s, valid_score: 0.065500]
+Mon 21 Jul 2025 17:59:30 INFO  valid result: 
+recall@10 : 0.0579    mrr@10 : 0.0655    ndcg@10 : 0.0437    hit@10 : 0.1532    precision@10 : 0.018    map@10 : 0.0258    averagepopularity@10 : 356.6183
+Mon 21 Jul 2025 17:59:30 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 17:59:56 INFO  epoch 45 training [time: 25.24s, train loss: 0.3358]
+Mon 21 Jul 2025 18:00:28 INFO  epoch 46 training [time: 32.33s, train loss: 0.3211]
+Mon 21 Jul 2025 18:01:13 INFO  epoch 47 training [time: 44.69s, train loss: 0.3181]
+Mon 21 Jul 2025 18:01:54 INFO  epoch 48 training [time: 41.30s, train loss: 0.2986]
+Mon 21 Jul 2025 18:02:20 INFO  epoch 49 training [time: 26.44s, train loss: 0.2992]
+Mon 21 Jul 2025 18:06:34 INFO  epoch 49 evaluating [time: 254.12s, valid_score: 0.066200]
+Mon 21 Jul 2025 18:06:34 INFO  valid result: 
+recall@10 : 0.0586    mrr@10 : 0.0662    ndcg@10 : 0.0442    hit@10 : 0.1546    precision@10 : 0.0182    map@10 : 0.0262    averagepopularity@10 : 355.0793
+Mon 21 Jul 2025 18:06:35 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:07:09 INFO  epoch 50 training [time: 33.96s, train loss: 0.2794]
+Mon 21 Jul 2025 18:07:48 INFO  epoch 51 training [time: 39.37s, train loss: 0.2760]
+Mon 21 Jul 2025 18:08:26 INFO  epoch 52 training [time: 38.59s, train loss: 0.2746]
+Mon 21 Jul 2025 18:09:06 INFO  epoch 53 training [time: 39.40s, train loss: 0.2517]
+Mon 21 Jul 2025 18:09:37 INFO  epoch 54 training [time: 31.06s, train loss: 0.2448]
+Mon 21 Jul 2025 18:13:17 INFO  epoch 54 evaluating [time: 220.28s, valid_score: 0.067200]
+Mon 21 Jul 2025 18:13:17 INFO  valid result: 
+recall@10 : 0.0593    mrr@10 : 0.0672    ndcg@10 : 0.0449    hit@10 : 0.1562    precision@10 : 0.0184    map@10 : 0.0267    averagepopularity@10 : 353.7795
+Mon 21 Jul 2025 18:13:17 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:14:06 INFO  epoch 55 training [time: 48.24s, train loss: 0.2487]
+Mon 21 Jul 2025 18:14:55 INFO  epoch 56 training [time: 49.36s, train loss: 0.2259]
+Mon 21 Jul 2025 18:15:54 INFO  epoch 57 training [time: 59.15s, train loss: 0.2274]
+Mon 21 Jul 2025 18:16:36 INFO  epoch 58 training [time: 42.41s, train loss: 0.2142]
+Mon 21 Jul 2025 18:17:27 INFO  epoch 59 training [time: 50.68s, train loss: 0.2066]
+Mon 21 Jul 2025 18:22:16 INFO  epoch 59 evaluating [time: 288.38s, valid_score: 0.068200]
+Mon 21 Jul 2025 18:22:16 INFO  valid result: 
+recall@10 : 0.0598    mrr@10 : 0.0682    ndcg@10 : 0.0454    hit@10 : 0.1575    precision@10 : 0.0186    map@10 : 0.027    averagepopularity@10 : 352.8146
+Mon 21 Jul 2025 18:22:16 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:22:57 INFO  epoch 60 training [time: 41.44s, train loss: 0.2071]
+Mon 21 Jul 2025 18:23:37 INFO  epoch 61 training [time: 40.08s, train loss: 0.1972]
+Mon 21 Jul 2025 18:24:18 INFO  epoch 62 training [time: 41.04s, train loss: 0.1871]
+Mon 21 Jul 2025 18:25:02 INFO  epoch 63 training [time: 43.91s, train loss: 0.1904]
+Mon 21 Jul 2025 18:25:49 INFO  epoch 64 training [time: 46.60s, train loss: 0.1846]
+Mon 21 Jul 2025 18:29:07 INFO  epoch 64 evaluating [time: 198.48s, valid_score: 0.068900]
+Mon 21 Jul 2025 18:29:07 INFO  valid result: 
+recall@10 : 0.0602    mrr@10 : 0.0689    ndcg@10 : 0.0458    hit@10 : 0.1583    precision@10 : 0.0187    map@10 : 0.0274    averagepopularity@10 : 351.8845
+Mon 21 Jul 2025 18:29:07 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:29:43 INFO  epoch 65 training [time: 36.11s, train loss: 0.1765]
+Mon 21 Jul 2025 18:30:30 INFO  epoch 66 training [time: 46.19s, train loss: 0.1748]
+Mon 21 Jul 2025 18:31:18 INFO  epoch 67 training [time: 47.97s, train loss: 0.1712]
+Mon 21 Jul 2025 18:32:01 INFO  epoch 68 training [time: 43.83s, train loss: 0.1591]
+Mon 21 Jul 2025 18:32:38 INFO  epoch 69 training [time: 36.30s, train loss: 0.1643]
+Mon 21 Jul 2025 18:35:43 INFO  epoch 69 evaluating [time: 184.86s, valid_score: 0.069600]
+Mon 21 Jul 2025 18:35:43 INFO  valid result: 
+recall@10 : 0.0604    mrr@10 : 0.0696    ndcg@10 : 0.0462    hit@10 : 0.1591    precision@10 : 0.0188    map@10 : 0.0277    averagepopularity@10 : 351.1008
+Mon 21 Jul 2025 18:35:43 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:36:22 INFO  epoch 70 training [time: 39.76s, train loss: 0.1562]
+Mon 21 Jul 2025 18:36:54 INFO  epoch 71 training [time: 32.01s, train loss: 0.1461]
+Mon 21 Jul 2025 18:37:28 INFO  epoch 72 training [time: 33.56s, train loss: 0.1541]
+Mon 21 Jul 2025 18:38:02 INFO  epoch 73 training [time: 33.67s, train loss: 0.1441]
+Mon 21 Jul 2025 18:38:37 INFO  epoch 74 training [time: 35.71s, train loss: 0.1364]
+Mon 21 Jul 2025 18:42:40 INFO  epoch 74 evaluating [time: 243.07s, valid_score: 0.070200]
+Mon 21 Jul 2025 18:42:40 INFO  valid result: 
+recall@10 : 0.0607    mrr@10 : 0.0702    ndcg@10 : 0.0466    hit@10 : 0.1597    precision@10 : 0.0189    map@10 : 0.028    averagepopularity@10 : 350.4568
+Mon 21 Jul 2025 18:42:40 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:42:52 INFO  epoch 75 training [time: 11.93s, train loss: 0.1442]
+Mon 21 Jul 2025 18:43:04 INFO  epoch 76 training [time: 11.81s, train loss: 0.1386]
+Mon 21 Jul 2025 18:43:21 INFO  epoch 77 training [time: 17.09s, train loss: 0.1327]
+Mon 21 Jul 2025 18:44:04 INFO  epoch 78 training [time: 42.71s, train loss: 0.1256]
+Mon 21 Jul 2025 18:44:54 INFO  epoch 79 training [time: 50.26s, train loss: 0.1252]
+Mon 21 Jul 2025 18:49:18 INFO  epoch 79 evaluating [time: 263.78s, valid_score: 0.070700]
+Mon 21 Jul 2025 18:49:18 INFO  valid result: 
+recall@10 : 0.0611    mrr@10 : 0.0707    ndcg@10 : 0.0469    hit@10 : 0.1604    precision@10 : 0.019    map@10 : 0.0282    averagepopularity@10 : 350.072
+Mon 21 Jul 2025 18:49:18 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:50:03 INFO  epoch 80 training [time: 44.84s, train loss: 0.1267]
+Mon 21 Jul 2025 18:50:42 INFO  epoch 81 training [time: 38.98s, train loss: 0.1214]
+Mon 21 Jul 2025 18:51:03 INFO  epoch 82 training [time: 21.40s, train loss: 0.1175]
+Mon 21 Jul 2025 18:51:25 INFO  epoch 83 training [time: 21.33s, train loss: 0.1216]
+Mon 21 Jul 2025 18:51:49 INFO  epoch 84 training [time: 24.58s, train loss: 0.1225]
+Mon 21 Jul 2025 18:54:00 INFO  epoch 84 evaluating [time: 130.70s, valid_score: 0.071300]
+Mon 21 Jul 2025 18:54:00 INFO  valid result: 
+recall@10 : 0.0616    mrr@10 : 0.0713    ndcg@10 : 0.0473    hit@10 : 0.1613    precision@10 : 0.0191    map@10 : 0.0285    averagepopularity@10 : 349.4838
+Mon 21 Jul 2025 18:54:00 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:54:39 INFO  epoch 85 training [time: 38.80s, train loss: 0.1114]
+Mon 21 Jul 2025 18:55:17 INFO  epoch 86 training [time: 38.32s, train loss: 0.1184]
+Mon 21 Jul 2025 18:55:51 INFO  epoch 87 training [time: 34.24s, train loss: 0.1163]
+Mon 21 Jul 2025 18:56:24 INFO  epoch 88 training [time: 32.51s, train loss: 0.1071]
+Mon 21 Jul 2025 18:57:01 INFO  epoch 89 training [time: 36.98s, train loss: 0.1045]
+Mon 21 Jul 2025 18:59:14 INFO  epoch 89 evaluating [time: 133.51s, valid_score: 0.071800]
+Mon 21 Jul 2025 18:59:14 INFO  valid result: 
+recall@10 : 0.0618    mrr@10 : 0.0718    ndcg@10 : 0.0476    hit@10 : 0.162    precision@10 : 0.0192    map@10 : 0.0287    averagepopularity@10 : 348.9865
+Mon 21 Jul 2025 18:59:14 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 18:59:38 INFO  epoch 90 training [time: 23.79s, train loss: 0.1072]
+Mon 21 Jul 2025 19:00:02 INFO  epoch 91 training [time: 24.09s, train loss: 0.1069]
+Mon 21 Jul 2025 19:00:29 INFO  epoch 92 training [time: 26.29s, train loss: 0.1000]
+Mon 21 Jul 2025 19:00:58 INFO  epoch 93 training [time: 29.15s, train loss: 0.1069]
+Mon 21 Jul 2025 19:01:20 INFO  epoch 94 training [time: 21.85s, train loss: 0.1025]
+Mon 21 Jul 2025 19:04:03 INFO  epoch 94 evaluating [time: 162.93s, valid_score: 0.072100]
+Mon 21 Jul 2025 19:04:03 INFO  valid result: 
+recall@10 : 0.062    mrr@10 : 0.0721    ndcg@10 : 0.0478    hit@10 : 0.1623    precision@10 : 0.0192    map@10 : 0.0289    averagepopularity@10 : 348.6905
+Mon 21 Jul 2025 19:04:03 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:04:36 INFO  epoch 95 training [time: 33.05s, train loss: 0.1023]
+Mon 21 Jul 2025 19:05:00 INFO  epoch 96 training [time: 24.70s, train loss: 0.0976]
+Mon 21 Jul 2025 19:05:36 INFO  epoch 97 training [time: 35.94s, train loss: 0.0942]
+Mon 21 Jul 2025 19:06:13 INFO  epoch 98 training [time: 36.26s, train loss: 0.0915]
+Mon 21 Jul 2025 19:06:42 INFO  epoch 99 training [time: 29.73s, train loss: 0.0894]
+Mon 21 Jul 2025 19:09:23 INFO  epoch 99 evaluating [time: 160.70s, valid_score: 0.072400]
+Mon 21 Jul 2025 19:09:23 INFO  valid result: 
+recall@10 : 0.0622    mrr@10 : 0.0724    ndcg@10 : 0.0479    hit@10 : 0.1628    precision@10 : 0.0192    map@10 : 0.0289    averagepopularity@10 : 348.3257
+Mon 21 Jul 2025 19:09:23 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:09:48 INFO  epoch 100 training [time: 24.76s, train loss: 0.0948]
+Mon 21 Jul 2025 19:10:20 INFO  epoch 101 training [time: 31.86s, train loss: 0.0908]
+Mon 21 Jul 2025 19:11:07 INFO  epoch 102 training [time: 47.51s, train loss: 0.0923]
+Mon 21 Jul 2025 19:11:53 INFO  epoch 103 training [time: 46.00s, train loss: 0.0893]
+Mon 21 Jul 2025 19:12:29 INFO  epoch 104 training [time: 36.03s, train loss: 0.0864]
+Mon 21 Jul 2025 19:14:48 INFO  epoch 104 evaluating [time: 138.82s, valid_score: 0.072600]
+Mon 21 Jul 2025 19:14:48 INFO  valid result: 
+recall@10 : 0.0624    mrr@10 : 0.0726    ndcg@10 : 0.0481    hit@10 : 0.163    precision@10 : 0.0193    map@10 : 0.0291    averagepopularity@10 : 348.0204
+Mon 21 Jul 2025 19:14:48 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:15:08 INFO  epoch 105 training [time: 20.22s, train loss: 0.0863]
+Mon 21 Jul 2025 19:15:24 INFO  epoch 106 training [time: 15.54s, train loss: 0.0882]
+Mon 21 Jul 2025 19:15:37 INFO  epoch 107 training [time: 12.59s, train loss: 0.0838]
+Mon 21 Jul 2025 19:15:49 INFO  epoch 108 training [time: 12.95s, train loss: 0.0891]
+Mon 21 Jul 2025 19:16:13 INFO  epoch 109 training [time: 23.24s, train loss: 0.0894]
+Mon 21 Jul 2025 19:18:53 INFO  epoch 109 evaluating [time: 160.16s, valid_score: 0.072900]
+Mon 21 Jul 2025 19:18:53 INFO  valid result: 
+recall@10 : 0.0624    mrr@10 : 0.0729    ndcg@10 : 0.0482    hit@10 : 0.1631    precision@10 : 0.0193    map@10 : 0.0292    averagepopularity@10 : 347.8754
+Mon 21 Jul 2025 19:18:53 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:19:25 INFO  epoch 110 training [time: 32.42s, train loss: 0.0883]
+Mon 21 Jul 2025 19:19:46 INFO  epoch 111 training [time: 20.84s, train loss: 0.0861]
+Mon 21 Jul 2025 19:20:08 INFO  epoch 112 training [time: 21.96s, train loss: 0.0846]
+Mon 21 Jul 2025 19:20:28 INFO  epoch 113 training [time: 20.00s, train loss: 0.0863]
+Mon 21 Jul 2025 19:20:44 INFO  epoch 114 training [time: 15.47s, train loss: 0.0821]
+Mon 21 Jul 2025 19:23:22 INFO  epoch 114 evaluating [time: 158.47s, valid_score: 0.073100]
+Mon 21 Jul 2025 19:23:22 INFO  valid result: 
+recall@10 : 0.0625    mrr@10 : 0.0731    ndcg@10 : 0.0483    hit@10 : 0.1634    precision@10 : 0.0193    map@10 : 0.0293    averagepopularity@10 : 347.5892
+Mon 21 Jul 2025 19:23:22 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:23:55 INFO  epoch 115 training [time: 33.19s, train loss: 0.0808]
+Mon 21 Jul 2025 19:24:30 INFO  epoch 116 training [time: 34.95s, train loss: 0.0734]
+Mon 21 Jul 2025 19:24:54 INFO  epoch 117 training [time: 23.44s, train loss: 0.0784]
+Mon 21 Jul 2025 19:25:19 INFO  epoch 118 training [time: 25.36s, train loss: 0.0768]
+Mon 21 Jul 2025 19:25:38 INFO  epoch 119 training [time: 18.49s, train loss: 0.0792]
+Mon 21 Jul 2025 19:27:43 INFO  epoch 119 evaluating [time: 125.74s, valid_score: 0.073400]
+Mon 21 Jul 2025 19:27:43 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0734    ndcg@10 : 0.0485    hit@10 : 0.1639    precision@10 : 0.0194    map@10 : 0.0294    averagepopularity@10 : 347.3766
+Mon 21 Jul 2025 19:27:43 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:27:57 INFO  epoch 120 training [time: 13.48s, train loss: 0.0803]
+Mon 21 Jul 2025 19:28:10 INFO  epoch 121 training [time: 12.98s, train loss: 0.0719]
+Mon 21 Jul 2025 19:28:23 INFO  epoch 122 training [time: 13.52s, train loss: 0.0742]
+Mon 21 Jul 2025 19:28:39 INFO  epoch 123 training [time: 15.72s, train loss: 0.0799]
+Mon 21 Jul 2025 19:29:11 INFO  epoch 124 training [time: 32.24s, train loss: 0.0788]
+Mon 21 Jul 2025 19:31:37 INFO  epoch 124 evaluating [time: 145.86s, valid_score: 0.073500]
+Mon 21 Jul 2025 19:31:37 INFO  valid result: 
+recall@10 : 0.0626    mrr@10 : 0.0735    ndcg@10 : 0.0486    hit@10 : 0.1638    precision@10 : 0.0194    map@10 : 0.0295    averagepopularity@10 : 347.1071
+Mon 21 Jul 2025 19:31:37 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:31:58 INFO  epoch 125 training [time: 20.68s, train loss: 0.0763]
+Mon 21 Jul 2025 19:32:25 INFO  epoch 126 training [time: 27.21s, train loss: 0.0775]
+Mon 21 Jul 2025 19:33:04 INFO  epoch 127 training [time: 39.18s, train loss: 0.0770]
+Mon 21 Jul 2025 19:33:42 INFO  epoch 128 training [time: 38.07s, train loss: 0.0747]
+Mon 21 Jul 2025 19:34:07 INFO  epoch 129 training [time: 24.91s, train loss: 0.0720]
+Mon 21 Jul 2025 19:36:40 INFO  epoch 129 evaluating [time: 152.84s, valid_score: 0.073600]
+Mon 21 Jul 2025 19:36:40 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0736    ndcg@10 : 0.0486    hit@10 : 0.164    precision@10 : 0.0194    map@10 : 0.0295    averagepopularity@10 : 346.9944
+Mon 21 Jul 2025 19:36:40 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:37:28 INFO  epoch 130 training [time: 47.94s, train loss: 0.0737]
+Mon 21 Jul 2025 19:38:16 INFO  epoch 131 training [time: 48.03s, train loss: 0.0730]
+Mon 21 Jul 2025 19:38:48 INFO  epoch 132 training [time: 32.15s, train loss: 0.0725]
+Mon 21 Jul 2025 19:39:20 INFO  epoch 133 training [time: 31.32s, train loss: 0.0706]
+Mon 21 Jul 2025 19:39:52 INFO  epoch 134 training [time: 32.59s, train loss: 0.0735]
+Mon 21 Jul 2025 19:41:58 INFO  epoch 134 evaluating [time: 125.21s, valid_score: 0.073700]
+Mon 21 Jul 2025 19:41:58 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0737    ndcg@10 : 0.0487    hit@10 : 0.1641    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 346.8358
+Mon 21 Jul 2025 19:41:58 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:42:29 INFO  epoch 135 training [time: 31.38s, train loss: 0.0675]
+Mon 21 Jul 2025 19:42:57 INFO  epoch 136 training [time: 28.41s, train loss: 0.0767]
+Mon 21 Jul 2025 19:43:24 INFO  epoch 137 training [time: 26.71s, train loss: 0.0696]
+Mon 21 Jul 2025 19:43:44 INFO  epoch 138 training [time: 20.19s, train loss: 0.0735]
+Mon 21 Jul 2025 19:44:04 INFO  epoch 139 training [time: 19.41s, train loss: 0.0721]
+Mon 21 Jul 2025 19:46:49 INFO  epoch 139 evaluating [time: 165.06s, valid_score: 0.073800]
+Mon 21 Jul 2025 19:46:49 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.0738    ndcg@10 : 0.0487    hit@10 : 0.1642    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 346.8354
+Mon 21 Jul 2025 19:46:49 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:47:22 INFO  epoch 140 training [time: 33.05s, train loss: 0.0687]
+Mon 21 Jul 2025 19:47:59 INFO  epoch 141 training [time: 37.49s, train loss: 0.0705]
+Mon 21 Jul 2025 19:48:36 INFO  epoch 142 training [time: 36.46s, train loss: 0.0716]
+Mon 21 Jul 2025 19:49:02 INFO  epoch 143 training [time: 26.52s, train loss: 0.0727]
+Mon 21 Jul 2025 19:49:31 INFO  epoch 144 training [time: 28.10s, train loss: 0.0696]
+Mon 21 Jul 2025 19:51:39 INFO  epoch 144 evaluating [time: 128.65s, valid_score: 0.073700]
+Mon 21 Jul 2025 19:51:39 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.0737    ndcg@10 : 0.0487    hit@10 : 0.1642    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 346.6617
+Mon 21 Jul 2025 19:51:53 INFO  epoch 145 training [time: 13.57s, train loss: 0.0718]
+Mon 21 Jul 2025 19:52:07 INFO  epoch 146 training [time: 13.93s, train loss: 0.0706]
+Mon 21 Jul 2025 19:52:20 INFO  epoch 147 training [time: 13.62s, train loss: 0.0729]
+Mon 21 Jul 2025 19:52:49 INFO  epoch 148 training [time: 29.11s, train loss: 0.0687]
+Mon 21 Jul 2025 19:53:14 INFO  epoch 149 training [time: 24.11s, train loss: 0.0731]
+Mon 21 Jul 2025 19:56:01 INFO  epoch 149 evaluating [time: 167.93s, valid_score: 0.073900]
+Mon 21 Jul 2025 19:56:01 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1645    precision@10 : 0.0195    map@10 : 0.0296    averagepopularity@10 : 346.662
+Mon 21 Jul 2025 19:56:02 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 19:56:53 INFO  epoch 150 training [time: 51.42s, train loss: 0.0714]
+Mon 21 Jul 2025 19:57:39 INFO  epoch 151 training [time: 46.12s, train loss: 0.0657]
+Mon 21 Jul 2025 19:58:03 INFO  epoch 152 training [time: 23.67s, train loss: 0.0667]
+Mon 21 Jul 2025 19:58:25 INFO  epoch 153 training [time: 22.42s, train loss: 0.0694]
+Mon 21 Jul 2025 19:58:52 INFO  epoch 154 training [time: 26.66s, train loss: 0.0667]
+Mon 21 Jul 2025 20:01:12 INFO  epoch 154 evaluating [time: 140.27s, valid_score: 0.073900]
+Mon 21 Jul 2025 20:01:12 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1645    precision@10 : 0.0195    map@10 : 0.0296    averagepopularity@10 : 346.5936
+Mon 21 Jul 2025 20:01:12 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:01:42 INFO  epoch 155 training [time: 29.40s, train loss: 0.0693]
+Mon 21 Jul 2025 20:02:11 INFO  epoch 156 training [time: 28.99s, train loss: 0.0659]
+Mon 21 Jul 2025 20:02:57 INFO  epoch 157 training [time: 46.66s, train loss: 0.0700]
+Mon 21 Jul 2025 20:03:47 INFO  epoch 158 training [time: 49.38s, train loss: 0.0675]
+Mon 21 Jul 2025 20:04:28 INFO  epoch 159 training [time: 41.45s, train loss: 0.0656]
+Mon 21 Jul 2025 20:07:12 INFO  epoch 159 evaluating [time: 164.31s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:07:12 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.074    ndcg@10 : 0.0488    hit@10 : 0.1646    precision@10 : 0.0195    map@10 : 0.0297    averagepopularity@10 : 346.5673
+Mon 21 Jul 2025 20:07:12 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:07:32 INFO  epoch 160 training [time: 19.75s, train loss: 0.0656]
+Mon 21 Jul 2025 20:07:52 INFO  epoch 161 training [time: 19.67s, train loss: 0.0660]
+Mon 21 Jul 2025 20:08:14 INFO  epoch 162 training [time: 22.54s, train loss: 0.0670]
+Mon 21 Jul 2025 20:08:44 INFO  epoch 163 training [time: 29.19s, train loss: 0.0675]
+Mon 21 Jul 2025 20:09:12 INFO  epoch 164 training [time: 28.20s, train loss: 0.0670]
+Mon 21 Jul 2025 20:11:25 INFO  epoch 164 evaluating [time: 133.72s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:11:25 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.074    ndcg@10 : 0.0488    hit@10 : 0.1643    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.5086
+Mon 21 Jul 2025 20:11:26 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:12:11 INFO  epoch 165 training [time: 45.80s, train loss: 0.0639]
+Mon 21 Jul 2025 20:12:52 INFO  epoch 166 training [time: 40.15s, train loss: 0.0662]
+Mon 21 Jul 2025 20:13:22 INFO  epoch 167 training [time: 30.26s, train loss: 0.0612]
+Mon 21 Jul 2025 20:13:52 INFO  epoch 168 training [time: 30.20s, train loss: 0.0626]
+Mon 21 Jul 2025 20:14:13 INFO  epoch 169 training [time: 20.79s, train loss: 0.0607]
+Mon 21 Jul 2025 20:16:52 INFO  epoch 169 evaluating [time: 158.97s, valid_score: 0.073900]
+Mon 21 Jul 2025 20:16:52 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1643    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.4742
+Mon 21 Jul 2025 20:17:29 INFO  epoch 170 training [time: 37.45s, train loss: 0.0622]
+Mon 21 Jul 2025 20:18:02 INFO  epoch 171 training [time: 32.97s, train loss: 0.0651]
+Mon 21 Jul 2025 20:18:41 INFO  epoch 172 training [time: 39.18s, train loss: 0.0608]
+Mon 21 Jul 2025 20:19:18 INFO  epoch 173 training [time: 36.67s, train loss: 0.0658]
+Mon 21 Jul 2025 20:19:52 INFO  epoch 174 training [time: 34.12s, train loss: 0.0624]
+Mon 21 Jul 2025 20:22:36 INFO  epoch 174 evaluating [time: 163.89s, valid_score: 0.073900]
+Mon 21 Jul 2025 20:22:36 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1643    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 346.3583
+Mon 21 Jul 2025 20:23:00 INFO  epoch 175 training [time: 24.21s, train loss: 0.0649]
+Mon 21 Jul 2025 20:23:31 INFO  epoch 176 training [time: 31.05s, train loss: 0.0628]
+Mon 21 Jul 2025 20:24:08 INFO  epoch 177 training [time: 36.40s, train loss: 0.0644]
+Mon 21 Jul 2025 20:24:37 INFO  epoch 178 training [time: 29.68s, train loss: 0.0607]
+Mon 21 Jul 2025 20:25:01 INFO  epoch 179 training [time: 23.21s, train loss: 0.0603]
+Mon 21 Jul 2025 20:27:33 INFO  epoch 179 evaluating [time: 152.60s, valid_score: 0.073900]
+Mon 21 Jul 2025 20:27:33 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1644    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.4011
+Mon 21 Jul 2025 20:28:27 INFO  epoch 180 training [time: 53.60s, train loss: 0.0595]
+Mon 21 Jul 2025 20:29:18 INFO  epoch 181 training [time: 50.89s, train loss: 0.0649]
+Mon 21 Jul 2025 20:29:48 INFO  epoch 182 training [time: 30.73s, train loss: 0.0635]
+Mon 21 Jul 2025 20:30:14 INFO  epoch 183 training [time: 26.01s, train loss: 0.0629]
+Mon 21 Jul 2025 20:30:35 INFO  epoch 184 training [time: 20.30s, train loss: 0.0616]
+Mon 21 Jul 2025 20:34:17 INFO  epoch 184 evaluating [time: 221.99s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:34:17 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.074    ndcg@10 : 0.0488    hit@10 : 0.1643    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.4158
+Mon 21 Jul 2025 20:34:17 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:35:17 INFO  epoch 185 training [time: 60.71s, train loss: 0.0595]
+Mon 21 Jul 2025 20:36:22 INFO  epoch 186 training [time: 64.35s, train loss: 0.0653]
+Mon 21 Jul 2025 20:37:06 INFO  epoch 187 training [time: 44.40s, train loss: 0.0567]
+Mon 21 Jul 2025 20:37:46 INFO  epoch 188 training [time: 39.97s, train loss: 0.0576]
+Mon 21 Jul 2025 20:38:13 INFO  epoch 189 training [time: 26.89s, train loss: 0.0600]
+Mon 21 Jul 2025 20:41:23 INFO  epoch 189 evaluating [time: 189.65s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:41:23 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.074    ndcg@10 : 0.0488    hit@10 : 0.1643    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.4173
+Mon 21 Jul 2025 20:41:23 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:41:48 INFO  epoch 190 training [time: 25.43s, train loss: 0.0600]
+Mon 21 Jul 2025 20:42:12 INFO  epoch 191 training [time: 23.52s, train loss: 0.0580]
+Mon 21 Jul 2025 20:42:38 INFO  epoch 192 training [time: 26.45s, train loss: 0.0556]
+Mon 21 Jul 2025 20:43:07 INFO  epoch 193 training [time: 28.46s, train loss: 0.0579]
+Mon 21 Jul 2025 20:43:30 INFO  epoch 194 training [time: 23.60s, train loss: 0.0562]
+Mon 21 Jul 2025 20:46:33 INFO  epoch 194 evaluating [time: 182.51s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:46:33 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1647    precision@10 : 0.0195    map@10 : 0.0297    averagepopularity@10 : 346.5516
+Mon 21 Jul 2025 20:46:33 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:46:57 INFO  epoch 195 training [time: 24.34s, train loss: 0.0567]
+Mon 21 Jul 2025 20:47:24 INFO  epoch 196 training [time: 27.21s, train loss: 0.0572]
+Mon 21 Jul 2025 20:47:54 INFO  epoch 197 training [time: 29.73s, train loss: 0.0588]
+Mon 21 Jul 2025 20:48:24 INFO  epoch 198 training [time: 29.79s, train loss: 0.0543]
+Mon 21 Jul 2025 20:48:55 INFO  epoch 199 training [time: 30.54s, train loss: 0.0563]
+Mon 21 Jul 2025 20:51:25 INFO  epoch 199 evaluating [time: 150.12s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:51:25 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1648    precision@10 : 0.0195    map@10 : 0.0297    averagepopularity@10 : 346.6536
+Mon 21 Jul 2025 20:51:25 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:51:42 INFO  epoch 200 training [time: 17.18s, train loss: 0.0594]
+Mon 21 Jul 2025 20:52:02 INFO  epoch 201 training [time: 20.12s, train loss: 0.0519]
+Mon 21 Jul 2025 20:52:49 INFO  epoch 202 training [time: 46.92s, train loss: 0.0552]
+Mon 21 Jul 2025 20:53:47 INFO  epoch 203 training [time: 58.45s, train loss: 0.0569]
+Mon 21 Jul 2025 20:54:48 INFO  epoch 204 training [time: 60.75s, train loss: 0.0546]
+Mon 21 Jul 2025 20:56:36 INFO  epoch 204 evaluating [time: 108.08s, valid_score: 0.074000]
+Mon 21 Jul 2025 20:56:36 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1646    precision@10 : 0.0195    map@10 : 0.0298    averagepopularity@10 : 346.7226
+Mon 21 Jul 2025 20:56:36 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 20:57:29 INFO  epoch 205 training [time: 52.54s, train loss: 0.0539]
+Mon 21 Jul 2025 20:57:48 INFO  epoch 206 training [time: 19.07s, train loss: 0.0533]
+Mon 21 Jul 2025 20:58:04 INFO  epoch 207 training [time: 16.21s, train loss: 0.0562]
+Mon 21 Jul 2025 20:58:23 INFO  epoch 208 training [time: 19.13s, train loss: 0.0553]
+Mon 21 Jul 2025 20:58:49 INFO  epoch 209 training [time: 25.71s, train loss: 0.0557]
+Mon 21 Jul 2025 21:01:12 INFO  epoch 209 evaluating [time: 143.15s, valid_score: 0.074000]
+Mon 21 Jul 2025 21:01:12 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1648    precision@10 : 0.0195    map@10 : 0.0297    averagepopularity@10 : 346.7318
+Mon 21 Jul 2025 21:01:12 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 21:01:34 INFO  epoch 210 training [time: 21.48s, train loss: 0.0552]
+Mon 21 Jul 2025 21:01:54 INFO  epoch 211 training [time: 20.63s, train loss: 0.0532]
+Mon 21 Jul 2025 21:02:15 INFO  epoch 212 training [time: 20.30s, train loss: 0.0552]
+Mon 21 Jul 2025 21:02:33 INFO  epoch 213 training [time: 18.58s, train loss: 0.0521]
+Mon 21 Jul 2025 21:02:50 INFO  epoch 214 training [time: 16.76s, train loss: 0.0517]
+Mon 21 Jul 2025 21:05:47 INFO  epoch 214 evaluating [time: 177.06s, valid_score: 0.074000]
+Mon 21 Jul 2025 21:05:47 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1645    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 346.8525
+Mon 21 Jul 2025 21:05:47 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 21:06:13 INFO  epoch 215 training [time: 25.56s, train loss: 0.0545]
+Mon 21 Jul 2025 21:06:34 INFO  epoch 216 training [time: 21.42s, train loss: 0.0552]
+Mon 21 Jul 2025 21:06:55 INFO  epoch 217 training [time: 21.29s, train loss: 0.0516]
+Mon 21 Jul 2025 21:07:16 INFO  epoch 218 training [time: 20.24s, train loss: 0.0534]
+Mon 21 Jul 2025 21:07:40 INFO  epoch 219 training [time: 24.65s, train loss: 0.0510]
+Mon 21 Jul 2025 21:10:52 INFO  epoch 219 evaluating [time: 191.85s, valid_score: 0.074000]
+Mon 21 Jul 2025 21:10:52 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1644    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 347.0538
+Mon 21 Jul 2025 21:10:52 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 21:11:37 INFO  epoch 220 training [time: 44.98s, train loss: 0.0525]
+Mon 21 Jul 2025 21:12:18 INFO  epoch 221 training [time: 40.42s, train loss: 0.0505]
+Mon 21 Jul 2025 21:12:52 INFO  epoch 222 training [time: 34.54s, train loss: 0.0516]
+Mon 21 Jul 2025 21:13:27 INFO  epoch 223 training [time: 34.31s, train loss: 0.0522]
+Mon 21 Jul 2025 21:13:48 INFO  epoch 224 training [time: 21.54s, train loss: 0.0485]
+Mon 21 Jul 2025 21:16:23 INFO  epoch 224 evaluating [time: 155.44s, valid_score: 0.074000]
+Mon 21 Jul 2025 21:16:23 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.074    ndcg@10 : 0.0489    hit@10 : 0.1642    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 347.1699
+Mon 21 Jul 2025 21:16:24 INFO  Saving current: ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 21:16:48 INFO  epoch 225 training [time: 24.29s, train loss: 0.0479]
+Mon 21 Jul 2025 21:17:12 INFO  epoch 226 training [time: 24.38s, train loss: 0.0509]
+Mon 21 Jul 2025 21:17:39 INFO  epoch 227 training [time: 26.67s, train loss: 0.0511]
+Mon 21 Jul 2025 21:18:09 INFO  epoch 228 training [time: 29.73s, train loss: 0.0482]
+Mon 21 Jul 2025 21:18:39 INFO  epoch 229 training [time: 30.37s, train loss: 0.0504]
+Mon 21 Jul 2025 21:20:44 INFO  epoch 229 evaluating [time: 124.88s, valid_score: 0.073900]
+Mon 21 Jul 2025 21:20:44 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1641    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 347.3441
+Mon 21 Jul 2025 21:21:07 INFO  epoch 230 training [time: 22.62s, train loss: 0.0505]
+Mon 21 Jul 2025 21:21:37 INFO  epoch 231 training [time: 30.69s, train loss: 0.0504]
+Mon 21 Jul 2025 21:22:09 INFO  epoch 232 training [time: 31.85s, train loss: 0.0469]
+Mon 21 Jul 2025 21:22:39 INFO  epoch 233 training [time: 30.36s, train loss: 0.0469]
+Mon 21 Jul 2025 21:23:14 INFO  epoch 234 training [time: 34.71s, train loss: 0.0463]
+Mon 21 Jul 2025 21:24:59 INFO  epoch 234 evaluating [time: 104.95s, valid_score: 0.073900]
+Mon 21 Jul 2025 21:24:59 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1641    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 347.6212
+Mon 21 Jul 2025 21:25:36 INFO  epoch 235 training [time: 36.67s, train loss: 0.0456]
+Mon 21 Jul 2025 21:26:22 INFO  epoch 236 training [time: 45.80s, train loss: 0.0468]
+Mon 21 Jul 2025 21:26:57 INFO  epoch 237 training [time: 34.99s, train loss: 0.0438]
+Mon 21 Jul 2025 21:27:23 INFO  epoch 238 training [time: 26.52s, train loss: 0.0457]
+Mon 21 Jul 2025 21:27:58 INFO  epoch 239 training [time: 35.33s, train loss: 0.0428]
+Mon 21 Jul 2025 21:29:45 INFO  epoch 239 evaluating [time: 106.96s, valid_score: 0.073800]
+Mon 21 Jul 2025 21:29:45 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0738    ndcg@10 : 0.0487    hit@10 : 0.164    precision@10 : 0.0194    map@10 : 0.0297    averagepopularity@10 : 347.9256
+Mon 21 Jul 2025 21:30:34 INFO  epoch 240 training [time: 49.09s, train loss: 0.0454]
+Mon 21 Jul 2025 21:31:13 INFO  epoch 241 training [time: 38.20s, train loss: 0.0448]
+Mon 21 Jul 2025 21:31:47 INFO  epoch 242 training [time: 34.00s, train loss: 0.0439]
+Mon 21 Jul 2025 21:32:09 INFO  epoch 243 training [time: 22.72s, train loss: 0.0444]
+Mon 21 Jul 2025 21:32:36 INFO  epoch 244 training [time: 26.12s, train loss: 0.0413]
+Mon 21 Jul 2025 21:35:06 INFO  epoch 244 evaluating [time: 150.71s, valid_score: 0.073800]
+Mon 21 Jul 2025 21:35:06 INFO  valid result: 
+recall@10 : 0.0626    mrr@10 : 0.0738    ndcg@10 : 0.0487    hit@10 : 0.1638    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 347.9738
+Mon 21 Jul 2025 21:35:26 INFO  epoch 245 training [time: 19.80s, train loss: 0.0422]
+Mon 21 Jul 2025 21:35:42 INFO  epoch 246 training [time: 15.50s, train loss: 0.0403]
+Mon 21 Jul 2025 21:36:00 INFO  epoch 247 training [time: 18.93s, train loss: 0.0410]
+Mon 21 Jul 2025 21:36:23 INFO  epoch 248 training [time: 22.23s, train loss: 0.0364]
+Mon 21 Jul 2025 21:36:38 INFO  epoch 249 training [time: 15.17s, train loss: 0.0385]
+Mon 21 Jul 2025 21:39:49 INFO  epoch 249 evaluating [time: 190.69s, valid_score: 0.073600]
+Mon 21 Jul 2025 21:39:49 INFO  valid result: 
+recall@10 : 0.0626    mrr@10 : 0.0736    ndcg@10 : 0.0487    hit@10 : 0.1639    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 348.3717
+Mon 21 Jul 2025 21:40:28 INFO  epoch 250 training [time: 39.64s, train loss: 0.0394]
+Mon 21 Jul 2025 21:41:15 INFO  epoch 251 training [time: 46.87s, train loss: 0.0414]
+Mon 21 Jul 2025 21:41:56 INFO  epoch 252 training [time: 40.48s, train loss: 0.0373]
+Mon 21 Jul 2025 21:42:37 INFO  epoch 253 training [time: 41.48s, train loss: 0.0371]
+Mon 21 Jul 2025 21:43:00 INFO  epoch 254 training [time: 23.06s, train loss: 0.0377]
+Mon 21 Jul 2025 21:46:12 INFO  epoch 254 evaluating [time: 191.64s, valid_score: 0.073600]
+Mon 21 Jul 2025 21:46:12 INFO  valid result: 
+recall@10 : 0.0627    mrr@10 : 0.0736    ndcg@10 : 0.0487    hit@10 : 0.1638    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 348.7917
+Mon 21 Jul 2025 21:47:11 INFO  epoch 255 training [time: 59.61s, train loss: 0.0367]
+Mon 21 Jul 2025 21:48:04 INFO  epoch 256 training [time: 52.89s, train loss: 0.0358]
+Mon 21 Jul 2025 21:49:08 INFO  epoch 257 training [time: 64.06s, train loss: 0.0372]
+Mon 21 Jul 2025 21:50:09 INFO  epoch 258 training [time: 60.35s, train loss: 0.0359]
+Mon 21 Jul 2025 21:51:07 INFO  epoch 259 training [time: 58.68s, train loss: 0.0333]
+Mon 21 Jul 2025 21:54:08 INFO  epoch 259 evaluating [time: 180.38s, valid_score: 0.073600]
+Mon 21 Jul 2025 21:54:08 INFO  valid result: 
+recall@10 : 0.0628    mrr@10 : 0.0736    ndcg@10 : 0.0487    hit@10 : 0.1639    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 348.9208
+Mon 21 Jul 2025 21:54:45 INFO  epoch 260 training [time: 36.83s, train loss: 0.0348]
+Mon 21 Jul 2025 21:55:20 INFO  epoch 261 training [time: 35.41s, train loss: 0.0350]
+Mon 21 Jul 2025 21:55:47 INFO  epoch 262 training [time: 27.25s, train loss: 0.0318]
+Mon 21 Jul 2025 21:56:08 INFO  epoch 263 training [time: 21.24s, train loss: 0.0324]
+Mon 21 Jul 2025 21:56:37 INFO  epoch 264 training [time: 29.07s, train loss: 0.0301]
+Mon 21 Jul 2025 21:59:21 INFO  epoch 264 evaluating [time: 163.21s, valid_score: 0.073600]
+Mon 21 Jul 2025 21:59:21 INFO  valid result: 
+recall@10 : 0.0629    mrr@10 : 0.0736    ndcg@10 : 0.0487    hit@10 : 0.1641    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 349.2862
+Mon 21 Jul 2025 21:59:50 INFO  epoch 265 training [time: 29.18s, train loss: 0.0295]
+Mon 21 Jul 2025 22:00:25 INFO  epoch 266 training [time: 35.27s, train loss: 0.0280]
+Mon 21 Jul 2025 22:01:18 INFO  epoch 267 training [time: 52.84s, train loss: 0.0270]
+Mon 21 Jul 2025 22:02:08 INFO  epoch 268 training [time: 49.79s, train loss: 0.0263]
+Mon 21 Jul 2025 22:03:08 INFO  epoch 269 training [time: 59.96s, train loss: 0.0269]
+Mon 21 Jul 2025 22:04:58 INFO  epoch 269 evaluating [time: 110.16s, valid_score: 0.073500]
+Mon 21 Jul 2025 22:04:58 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.0735    ndcg@10 : 0.0487    hit@10 : 0.1644    precision@10 : 0.0194    map@10 : 0.0296    averagepopularity@10 : 349.8137
+Mon 21 Jul 2025 22:06:06 INFO  epoch 270 training [time: 67.70s, train loss: 0.1144]
+Mon 21 Jul 2025 22:07:18 INFO  epoch 271 training [time: 72.78s, train loss: 0.1091]
+Mon 21 Jul 2025 22:08:39 INFO  epoch 272 training [time: 80.29s, train loss: 0.1089]
+Mon 21 Jul 2025 22:09:50 INFO  epoch 273 training [time: 71.56s, train loss: 0.1119]
+Mon 21 Jul 2025 22:10:59 INFO  epoch 274 training [time: 68.65s, train loss: 0.1067]
+Mon 21 Jul 2025 22:12:41 INFO  epoch 274 evaluating [time: 101.77s, valid_score: 0.073700]
+Mon 21 Jul 2025 22:12:41 INFO  valid result: 
+recall@10 : 0.0631    mrr@10 : 0.0737    ndcg@10 : 0.0488    hit@10 : 0.1648    precision@10 : 0.0195    map@10 : 0.0296    averagepopularity@10 : 349.4096
+Mon 21 Jul 2025 22:13:32 INFO  epoch 275 training [time: 51.42s, train loss: 0.1055]
+Mon 21 Jul 2025 22:14:23 INFO  epoch 276 training [time: 50.52s, train loss: 0.1007]
+Mon 21 Jul 2025 22:15:03 INFO  epoch 277 training [time: 39.92s, train loss: 0.1016]
+Mon 21 Jul 2025 22:15:40 INFO  epoch 278 training [time: 37.28s, train loss: 0.1025]
+Mon 21 Jul 2025 22:16:14 INFO  epoch 279 training [time: 33.97s, train loss: 0.1040]
+Mon 21 Jul 2025 22:18:02 INFO  epoch 279 evaluating [time: 108.19s, valid_score: 0.073900]
+Mon 21 Jul 2025 22:18:02 INFO  valid result: 
+recall@10 : 0.063    mrr@10 : 0.0739    ndcg@10 : 0.0488    hit@10 : 0.1646    precision@10 : 0.0195    map@10 : 0.0297    averagepopularity@10 : 348.6918
+Mon 21 Jul 2025 22:18:02 INFO  Finished training, best eval result in epoch 224
+Mon 21 Jul 2025 22:18:02 INFO  Finetuning finished. Evaluating on the test set...
+Mon 21 Jul 2025 22:18:02 INFO  Loading model structure and parameters from ./saved_finetune/BPR-Jul-21-2025_16-43-32.pth
+Mon 21 Jul 2025 22:21:02 INFO  best valid result: OrderedDict([('recall@10', 0.0628), ('mrr@10', 0.074), ('ndcg@10', 0.0489), ('hit@10', 0.1642), ('precision@10', 0.0194), ('map@10', 0.0297), ('averagepopularity@10', 347.1699)])
+Mon 21 Jul 2025 22:21:02 INFO  test result: OrderedDict([('recall@10', 0.0643), ('mrr@10', 0.076), ('ndcg@10', 0.0502), ('hit@10', 0.1667), ('precision@10', 0.0198), ('map@10', 0.0308), ('averagepopularity@10', 347.2549)])
