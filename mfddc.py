@@ -41,7 +41,7 @@ new_Collector.get_data_struct = get_data_struct_new
 DEFAULT_MODEL_FILE = [
     './saved/path_to_your_amazon_model.pth',        # amazon
     './saved/path_to_your_yelp_model.pth',          # yelp
-    './saved/BPR-Aug-02-2025_19-28-56.pth',         # tmall
+    './saved/path_to_your_tmall_model.pth',         # tmall
 ]
 DEFAULT_REP_DIRECTION_FILE = [
     './e_pop_saved/amazon/your_amazon_direction.json', # amazon
