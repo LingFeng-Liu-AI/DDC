@@ -2,7 +2,7 @@
 
 This repository contains the official source code and experimental data for the paper "Rethinking Popularity Bias in Collaborative Filtering via Analytical Vector Decomposition".
 
-Our work proposes **\<u\>D\</u\>irectional \<u\>D\</u\>ecomposition and \<u\>C\</u\>orrection (DDC)**, a novel fine-tuning framework to mitigate popularity bias.
+Our work proposes **<u>D</u>irectional <u>D</u>ecomposition and <u>C</u>orrection (DDC)**, a novel fine-tuning framework to mitigate popularity bias.
 
 ## Framework Overview
 
