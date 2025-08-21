@@ -39,14 +39,14 @@ new_Collector.get_data_struct = get_data_struct_new
 # NOTE TO REVIEWERS: Please replace the placeholder paths below with the actual paths
 # to your pre-trained model file and the generated popularity direction file.
 DEFAULT_MODEL_FILE = [
-    './saved/path_to_your_amazon_model.pth',        # amazon
-    './saved/path_to_your_yelp_model.pth',          # yelp
-    './saved/path_to_your_tmall_model.pth',         # tmall
+    './saved/path_to_your_amazon_model.pth',   # amazon
+    './saved/path_to_your_yelp_model.pth',     # yelp
+    './saved/path_from_step_1.pth',            # tmall (UPDATE THIS)
 ]
 DEFAULT_REP_DIRECTION_FILE = [
     './e_pop_saved/amazon/your_amazon_direction.json', # amazon
     './e_pop_saved/yelp/your_yelp_direction.json',     # yelp
-    './e_pop_saved/tmall/rep_direction_item_tmall_20250802_203218.json', # tmall
+    './e_pop_saved/tmall/path_from_step_2.json',       # tmall (UPDATE THIS)
 ]
 
 
