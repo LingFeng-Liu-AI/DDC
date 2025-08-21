@@ -46,7 +46,7 @@ DEFAULT_MODEL_FILE = [
 DEFAULT_REP_DIRECTION_FILE = [
     './e_pop_saved/amazon/your_amazon_direction.json', # amazon
     './e_pop_saved/yelp/your_yelp_direction.json',     # yelp
-    './e_pop_saved/tmall/path_from_step_2.json',       # tmall (UPDATE THIS)
+    './e_pop_saved/tmall/path_from_step_2.json',       # tmall (UPDATE THIS, or use the pre-calculated one)
 ]
 
 
