@@ -26,13 +26,14 @@ def get_data_struct_new(self):
     for key in self.data_struct._data_dict:
         if isinstance(self.data_struct._data_dict[key], torch.Tensor):
             self.data_struct._data_dict[key] = self.data_struct._data_dict[key].cpu()
-    
+        else:
+            self.data_struct._data_dict[key] = self.data_struct._data_dict[key] 
     # Create a deep copy of the data structure to return
     returned_struct = copy.deepcopy(self.data_struct)
     
     # Clean up some keys from the original structure to prepare for the next batch
     # NOTE: We intentionally DO NOT delete "rec.items" to make it available for metrics.
-    for key in ["rec.topk", "rec.meanrank", "rec.score", "data.label"]:
+    for key in ["rec.topk", "rec.meanrank", "rec.score", "rec.items", "data.label"]:
         if key in self.data_struct:
             del self.data_struct[key]
             

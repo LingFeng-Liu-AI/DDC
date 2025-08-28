@@ -23,13 +23,27 @@ np.float = float
 # This ensures the 'averagepopularity' metric can access necessary item data.
 new_Collector = recbole.evaluator.collector.Collector
 def get_data_struct_new(self):
+    """
+    A modified version of the Collector's get_data_struct method.
+    This version ensures that tensors are moved to the CPU before deepcopying,
+    which can prevent device-related issues. It also retains the 'rec.items' key,
+    which is needed for the average popularity metric.
+    """
+    # Move all tensors in the data structure to CPU
     for key in self.data_struct._data_dict:
         if isinstance(self.data_struct._data_dict[key], torch.Tensor):
             self.data_struct._data_dict[key] = self.data_struct._data_dict[key].cpu()
+        else:
+            self.data_struct._data_dict[key] = self.data_struct._data_dict[key] 
+    # Create a deep copy of the data structure to return
     returned_struct = copy.deepcopy(self.data_struct)
-    for key in ["rec.topk", "rec.meanrank", "rec.score", "data.label"]:
+    
+    # Clean up some keys from the original structure to prepare for the next batch
+    # NOTE: We intentionally DO NOT delete "rec.items" to make it available for metrics.
+    for key in ["rec.topk", "rec.meanrank", "rec.score", "rec.items", "data.label"]:
         if key in self.data_struct:
             del self.data_struct[key]
+            
     return returned_struct
 new_Collector.get_data_struct = get_data_struct_new
 # --- End of Monkey-patching ---
