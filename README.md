@@ -8,8 +8,11 @@ This repository contains the official source code and experimental data for the 
 Lingfeng Liu¹, Yixin Song¹, Dazhong Shen², Bing Yin³, Hao Li³, Yanyong Zhang¹, Chao Wang¹*
 
 *¹School of Artificial Intelligence and Data Science, University of Science and Technology of China (USTC)*
+
 *²College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics (NUAA)*
+
 *³iFLYTEK Research*
+
 *(*Corresponding Author)*
 
 ---
