@@ -34,8 +34,7 @@ ddc/
 │   └── tmall/                      # Pre-calculated e_pop for Tmall.
 ├── original_result_in_paper/
 │   ├── MF/                         # Original training logs for the baseline MF model.
-│   ├── MFDDC/                      # Original training logs for our MFDDC model.
-│   └── ...                         # Logs for other baselines.
+│   └── MF-DDC/                      # Original training logs for our MFDDC model.
 ├── get_e_pop.ipynb                 # Jupyter notebook to extract the e_pop vector.
 ├── mf.py                           # Script to train the baseline MF model.
 ├── mfddc.py                        # Script to finetune the MF model with our DDC method.
