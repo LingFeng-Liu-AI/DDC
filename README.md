@@ -53,13 +53,11 @@ ddc/
 - **`mf.py` / `lightgcn.py`**: The scripts for training the baseline models (MF and LightGCN).
 - **`mfddc.py` / `lightgcnddc.py`**: The main scripts for fine-tuning pre-trained models with our proposed DDC method.
 
-## Acknowledgement for RecBole
-
-This project is implemented based on the open-source recommendation library **[RecBole](https://github.com/RUCAIBox/RecBole)**. We highly appreciate their contribution to the community.
 
 ## Installation
 
 You can set up the required environment using Conda.
+> This project is implemented based on the open-source recommendation library **[RecBole](https://github.com/RUCAIBox/RecBole)**.
 
 1. **Create and activate a new Conda environment:**
 
