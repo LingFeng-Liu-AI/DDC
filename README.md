@@ -2,7 +2,7 @@
 
 ![SIGKDD 2026 Status](https://img.shields.io/badge/SIGKDD%202026-Accepted-success)
 
-This repository contains the official source code and experimental data for the paper **"Rethinking Popularity Bias in Collaborative Filtering via Analytical Vector Decomposition"**, which has been accepted by **SIGKDD 2026**.
+This repository contains the official source code and experimental data for the paper **"Rethinking Popularity Bias in Collaborative Filtering via Analytical Vector Decomposition"**, which has been accepted by **SIGKDD 2026**(First Cycle).
 
 **Authors:**
 Lingfeng Liu¹, Yixin Song¹, Dazhong Shen², Bing Yin³, Hao Li³, Yanyong Zhang¹, Chao Wang¹*
